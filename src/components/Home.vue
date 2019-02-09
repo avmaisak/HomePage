@@ -13,7 +13,6 @@
               <div class="clr-grey-700" id="links">
                 <a :href="github" class="txt-sz-2-5 m-1"><i class="mi-github"></i></a>
                 <a :href="email"  class="txt-sz-2-5 m-1"><i class="mi-envelope-out"></i></a>
-                <a :href="inst"  class="txt-sz-2-5 m-1"><i class="mi-instagram"></i></a>
               </div>
 
             </div>
@@ -33,8 +32,7 @@ export default {
       name: 'Anton Maisak',
       desc: 'Software develop, photo',
       github: 'https://github.com/avmaisak',
-      email: 'mailto:anton@maisak.ru',
-      inst: 'https://www.instagram.com/anton.maisak/'
+      email: 'mailto:anton@maisak.ru'
     }
   },
   mounted () {
